@@ -14,6 +14,11 @@
             "date": 1645408258282,
             "name": "logs\\ms_core-2022-02-21.log",
             "hash": "02e567ccba199e9c2710fe536db8116c"
+        },
+        {
+            "date": 1645582741585,
+            "name": "logs\\ms_core-2022-02-23.log",
+            "hash": "3e46be0b75e2b187b50b8ee7b91095cb"
         }
     ],
     "hashType": "md5"
