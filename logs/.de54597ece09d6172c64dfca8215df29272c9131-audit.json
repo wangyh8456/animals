@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 180
+    },
+    "auditLog": "logs\\.de54597ece09d6172c64dfca8215df29272c9131-audit.json",
+    "files": [
+        {
+            "date": 1645060996107,
+            "name": "logs\\ms_core-2022-02-17.log",
+            "hash": "7886c6f703184ea021ca90ad61e44ece"
+        },
+        {
+            "date": 1645408258282,
+            "name": "logs\\ms_core-2022-02-21.log",
+            "hash": "02e567ccba199e9c2710fe536db8116c"
+        }
+    ],
+    "hashType": "md5"
+}

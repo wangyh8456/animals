@@ -1,0 +1,1 @@
+{"timestamp":"2022-02-14T09:01:30.644Z","host":"DESKTOP-0A5J87H","path":"/role/find","level":"error","detail":"Token Timeout!","message":"API Response[401]:{\"code\":\"4010\",\"message\":\"unauthorized\"}"}
