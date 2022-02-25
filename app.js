@@ -16,7 +16,7 @@ const logger=require('./middilewares/loggerMiddleWare').logger;
 dotenv.config('./env');
 
 //redis全局变量
-global.redisClient = require("redis").createClient(6379,'localhost');
+global.redisClient = require("redis").createClient(6379,'123.56.85.203');
 
 var setResJSON=require('./middilewares/unifyResFormat');
 var redisToken=require('./middilewares/redisToken')
@@ -75,6 +75,7 @@ app.use((req,res,next) => {
 });
 //统一错误处理中间件
 app.use(function (err, req, res, next) {
+    console.log(err)
     if(err instanceof CustomError){
         if(!err.code) err.code=ERROR_CODE.UNKNOWN_ERROR;
     }else if(err instanceof HttpError){
@@ -89,8 +90,6 @@ app.use(function (err, req, res, next) {
             code:ERROR_CODE.UNKNOWN_ERROR
         });
     }
-
-    console.log(err)
 
     //接收到的err直接被捕捉，因此前面修改code的代码无效
     logger.error({

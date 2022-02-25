@@ -83,6 +83,7 @@ const userService={
         delete result.password;
         return result;
     },
+    //必须先删除角色中关联的页面权限，再删除菜单
     getRouter:async (req,next)=>{
         const user=await model.findBy('username',req.user.username,next);
         if(!user[0].roles){
@@ -97,9 +98,10 @@ const userService={
         roles.forEach(el=>{
             routes=[...new Set([...routes,...el])];
         })
+        // console.log(routes)
         await Promise.all(routes.map(async el=>{
             const menu=await menumodel.findBy('id',Number(el));
-            if(Number(menu[0].pid))
+            if(Number(menu[0]?.pid))
                 pids.push(menu[0].pid)
         }))
         let result=[...new Set([...routes,...pids])]
