@@ -16,7 +16,7 @@ const logger=require('./middilewares/loggerMiddleWare').logger;
 dotenv.config('./env');
 
 //redis全局变量
-global.redisClient = require("redis").createClient(6379,'123.56.85.203');
+global.redisClient = require("redis").createClient(6379,'localhost');
 
 var setResJSON=require('./middilewares/unifyResFormat');
 var redisToken=require('./middilewares/redisToken')
@@ -113,3 +113,5 @@ app.use(function (err, req, res, next) {
 app.listen(port, function() {
     console.log('listen to port:' + port);
 })
+
+module.exports=app;

@@ -3,7 +3,8 @@ const {ERROR_CODE}=require('../error/error_code')
 
 var mysql = require("mysql")
 var pool = mysql.createPool({
-    host:"123.56.85.203",
+    // host:"123.56.85.203",
+    host:"localhost",
     user:"root",
     password:"root",
     database:"shopmall"

@@ -24,6 +24,41 @@
             "date": 1645668598433,
             "name": "logs\\ms_core-2022-02-24.log",
             "hash": "2cb52c686a6981de009df2dca4a20981"
+        },
+        {
+            "date": 1645755119187,
+            "name": "logs\\ms_core-2022-02-25.log",
+            "hash": "f6378f91d484dccc1e71c6de97e9ba80"
+        },
+        {
+            "date": 1646010955109,
+            "name": "logs\\ms_core-2022-02-28.log",
+            "hash": "dc59a3cc9f5b1879fe7aa47f4e62ff4d"
+        },
+        {
+            "date": 1646636955250,
+            "name": "logs\\ms_core-2022-03-07.log",
+            "hash": "262fac33958b16e2a6a4ab83099c67e0"
+        },
+        {
+            "date": 1646898192452,
+            "name": "logs\\ms_core-2022-03-10.log",
+            "hash": "71e32b50efb8cc3d34cb951320a6b7b6"
+        },
+        {
+            "date": 1647248186227,
+            "name": "logs\\ms_core-2022-03-14.log",
+            "hash": "16cfe77eae600c5a3238d192cf4c60ee"
+        },
+        {
+            "date": 1647413123097,
+            "name": "logs\\ms_core-2022-03-16.log",
+            "hash": "2d2bc100ba79832ede51c2025360377e"
+        },
+        {
+            "date": 1647507537769,
+            "name": "logs\\ms_core-2022-03-17.log",
+            "hash": "8649264fc4ff1d3e5d39ab9fad76599d"
         }
     ],
     "hashType": "md5"

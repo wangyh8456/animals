@@ -24,6 +24,41 @@
             "date": 1645668598447,
             "name": "logs\\errorlog\\ms_core-2022-02-24.log",
             "hash": "61ba9414455450a269730f7c348be847"
+        },
+        {
+            "date": 1645755119195,
+            "name": "logs\\errorlog\\ms_core-2022-02-25.log",
+            "hash": "0b9ae71a28d2d55360ef4424c677c654"
+        },
+        {
+            "date": 1646010955141,
+            "name": "logs\\errorlog\\ms_core-2022-02-28.log",
+            "hash": "90f4212cb3d2b37a7f93112f88fb0855"
+        },
+        {
+            "date": 1646636955266,
+            "name": "logs\\errorlog\\ms_core-2022-03-07.log",
+            "hash": "0b5b43af1e95a2d24e73c434d082f07c"
+        },
+        {
+            "date": 1646898192483,
+            "name": "logs\\errorlog\\ms_core-2022-03-10.log",
+            "hash": "76040cc2fe47f4b94a35b5b067cffe79"
+        },
+        {
+            "date": 1647248186264,
+            "name": "logs\\errorlog\\ms_core-2022-03-14.log",
+            "hash": "fc7bcac6b1228091555f7f18fc41cfeb"
+        },
+        {
+            "date": 1647413123117,
+            "name": "logs\\errorlog\\ms_core-2022-03-16.log",
+            "hash": "d4264ff0ca65ed8a2cfe3b4705cabfbc"
+        },
+        {
+            "date": 1647507537772,
+            "name": "logs\\errorlog\\ms_core-2022-03-17.log",
+            "hash": "921451c642357c767f29cab51e04359e"
         }
     ],
     "hashType": "md5"
