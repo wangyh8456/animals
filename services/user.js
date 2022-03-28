@@ -45,7 +45,7 @@ const userService={
             list:user,
             total:count,
             pageSize:req.body.pageSize||5,
-            pageNum:req.body.pageNum||1
+            pageNum:req.body.pageNum||1,
         }
         return result;
     },

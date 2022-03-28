@@ -25,7 +25,7 @@ var redisToken=require('./middilewares/redisToken')
 const nodeSchedule=require('./nodeSchedule');
 nodeSchedule();
 
-const port = process.env.PORT || 8990;
+const port = process.env.PORT;
 
 app.use(bodyParse.json({}));
 app.use(bodyParse.urlencoded({extended: true}));

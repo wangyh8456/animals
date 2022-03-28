@@ -5,6 +5,7 @@ const {ERROR_CODE}=require('../error/error_code')
 module.exports = (req,res, next) => {
     let time=Math.round(Date.now()/1000);
     const path=req.path;
+    console.log(path)
     try{
         if(path==='/user/login'){
             redisClient.hset('token',req.body.username,time+constant.redisTokenExpireTime,err=>{})
